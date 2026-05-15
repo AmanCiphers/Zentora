@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Eventify — Streamlined Event Planning",
+  title: "Zentora — Streamlined Event Planning",
   description:
-    "Eliminate the chaos of event planning. Registration, scheduling, and attendee communication in one platform.",
+    "Eliminate the chaos of event planning. Registration, scheduling, announcements, and check-ins — all in one streamlined platform.",
 };
 
 export default function RootLayout({ children }) {

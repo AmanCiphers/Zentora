@@ -24,9 +24,9 @@ export default function Footer() {
       <div className="px-6 py-12 sm:px-10 lg:px-20 xl:px-28">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <span className="text-2xl font-black text-white">Eventify</span>
+            <span className="text-2xl font-black text-white">Zentora</span>
             <p className="mt-3 max-w-xs text-sm font-semibold leading-relaxed text-white/65">
-              Eliminate the chaos of event planning. Registration, scheduling, and attendee communication in one platform.
+              Eliminate the chaos of event planning. Registration, scheduling, announcements, and check-ins — all in one platform.
             </p>
           </div>
           {Object.entries(footerLinks).map(([title, links]) => (
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
         <div className="mt-10 border-t border-white/15 pt-8">
           <p className="text-sm font-semibold text-white/50">
-            &copy; {new Date().getFullYear()} Eventify. All rights reserved.
+            &copy; {new Date().getFullYear()} Zentora. All rights reserved.
           </p>
         </div>
       </div>
