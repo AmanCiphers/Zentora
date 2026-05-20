@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="min-h-screen bg-[#f7f7f3] font-sans antialiased flex flex-col">
-        <div className="bg-black px-4 py-2.5 text-center text-sm font-bold text-white shadow-lg">
+        <div className="bg-black px-4 py-2.5 text-center text-[10px] lg:text-sm font-bold text-white shadow-lg">
           ⚠️ This app is currently under development — most features may not work as expected. All displayed data is hypothetical/demo data. ⚠️
         </div>
         <Navbar />
