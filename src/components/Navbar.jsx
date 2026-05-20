@@ -117,7 +117,7 @@ export default function Navbar() {
 
   if (isHome) {
     return (
-      <header className="absolute inset-x-0 top-0 z-[70]">
+      <header className="absolute inset-x-0 top-10 z-[70]">
         <nav className="lg:grid lg:grid-cols-[1fr_480px] lg:items-start">
           <div className="flex min-h-24 items-center justify-between bg-transparent px-6 sm:px-10 lg:ml-20 ">
             <Link href="/" className="text-2xl font-black text-white">
